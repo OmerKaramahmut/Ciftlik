@@ -1,0 +1,134 @@
+.footerPage {
+  background-color: #3d4c5a;
+  padding: 20px 0 0;
+}
+
+.footerTittle {
+  color: #fff;
+  text-align: center;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+.Links {
+  padding: 0 30px;
+}
+.Links ul li {
+  list-style: none;
+}
+.line {
+  border: 1px solid #fff;
+  margin: 20px;
+}
+.linkTittle {
+  font-size: 30px;
+}
+.Links ul li a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+}
+.Links ul a::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: all 0.7s;
+}
+
+.Links ul a:hover::before {
+  width: 100%;
+}
+
+.Office {
+  padding: 0 30px;
+}
+.Offfice ul {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Office ul li {
+  list-style: none;
+  font-size: 20px;
+  padding: 5px;
+}
+.Tittle {
+  font-size: 30px;
+}
+.Farming {
+  padding: 0 30px;
+}
+
+.Farming ul {
+  list-style: none;
+}
+
+.Farming ul li p {
+  padding: 5px;
+}
+.vegetable {
+  padding: 0 30px;
+}
+.vegetable ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+.icon{
+  opacity: .3;
+}
+
+.social .icon:hover {
+  scale: 1.5;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  opacity: 1;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: black;
+  margin-top: 15px;
+}
+.copyrightText {
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 600px){
+  .footerLinks{
+    flex-direction: column;
+  }
+}

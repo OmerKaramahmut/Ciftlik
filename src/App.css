@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Protest+Guerrilla&display=swap");
+*{
+    scroll-behavior: smooth;
+}
+
+.slide-in{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #0f0f0f;
+    transform-origin: bottom;
+}
+
+.slide-out{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #0f0f0f;
+    transform-origin: top;
+}

@@ -1,0 +1,70 @@
+
+.heroPage {
+    width: 100%;
+    color: white;
+    height: 100vh;
+    justify-content: space-around;
+    background-image: url(../image/background2.png);
+    background-size: cover;
+  }
+  
+  .heroText {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    font-family: "Montserrat Alternates", sans-serif;
+  }
+  
+  .heroText h1 {
+    font-size: 100px;
+    text-shadow: 2px 2px 2px black;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 300;
+    letter-spacing: 5px;
+  }
+  .heroText h1 span {
+    color: red;
+    text-shadow: 2px 2px 2px black;
+  }
+  .heroText .animationType {
+    font-size: 40px;
+    text-shadow: 2px 2px 2px black;
+  }
+  .heroText p {
+    padding-top: 10px;
+    opacity: 0.5;
+  }
+  .heroImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroImage img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 110px;
+    border: 1px solid;
+  }
+  
+  
+  @media only screen and (max-width: 600px){
+    .heroText h1 {
+      font-size: 40px;
+    }
+    .heroText .animationType {
+      font-size: 12px;
+    
+    }
+    .heroText p{
+      font-size: 5px
+    }
+    .heroPage{
+      background-image: url(../image/tarla.png); 
+      background-size: cover;
+    }
+  }
+  

@@ -1,0 +1,57 @@
+.FarmingPage {
+  margin-top: 50px;
+  padding-bottom: 80px;
+  background-color: #3d4c5a;
+}
+
+.tittle h1 {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-size: 90px;
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.cardText {
+  width: 35vw;
+}
+.cardTittle {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-size: 50px;
+}
+.cardAbout {
+  font-size: 30px;
+  font-family: "LXGW WenKai TC", cursive;
+}
+.cardImage img {
+  width: 600px;
+  height: 350px;
+  border-radius: 18px;
+}
+
+@media screen and (max-width: 599px) {
+  .tittle h1 {
+    font-size: 70px;
+  }
+  .cardText {
+    width: 75vw;
+    text-align: center;
+  }
+  .card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .cardImage img {
+    width: 400px;
+    height: 300px;
+    border-radius: 18px;
+  }
+  
+}

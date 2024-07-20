@@ -1,0 +1,42 @@
+.HelpPage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin-top: 30PX;
+    padding-bottom: 100px;
+}
+.Icon{
+    padding-top: 55px;
+}
+.Icon img{
+    width: 200px;
+    height: 200px;
+}
+.Tittle h1{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+.About p{
+    font-family: "LXGW WenKai TC", cursive;
+}
+
+.Text{
+    text-align: center;
+    width: 30vw;
+}
+
+@media screen and (max-width: 599px) {
+  .HelpPage{
+    flex-direction: column;
+  }
+  .Text{
+    width: 60vw;
+  }
+  }
+  

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap");
+
+.btnPage {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+.btn {
+  background: -webkit-linear-gradient(0deg, transparent 50%, #27e8a7);
+  background-size: 400px 100px;
+  transition: 0.8s;
+  color: white;
+  height: 50px;
+  position: relative;
+  width: 180px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  cursor: pointer;
+  font-family: "LXGW WenKai TC", cursive;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-position: 180px 0;
+  color: white;
+}
